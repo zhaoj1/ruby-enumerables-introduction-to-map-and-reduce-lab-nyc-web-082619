@@ -39,6 +39,8 @@ end
 def reduce_to_all_true(array)
   array.length.times{ |index|
     if array[index]
+    else
+      return nil
     end
   }
 end
