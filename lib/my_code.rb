@@ -49,7 +49,7 @@ def reduce_to_any_true(array)
   array.length.times { |index|
     unless array[index]
     else  
-      return false
+      return nil
     end
   }
 end
