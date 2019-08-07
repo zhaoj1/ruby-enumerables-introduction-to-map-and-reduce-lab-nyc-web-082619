@@ -50,7 +50,7 @@ def reduce_to_any_true(array)
     if array[index] == nil
       false
     else
-      return array[index]
+      return true
     end
   }
 end
