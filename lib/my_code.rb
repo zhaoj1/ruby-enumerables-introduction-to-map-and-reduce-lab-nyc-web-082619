@@ -46,5 +46,10 @@ def reduce_to_all_true(array)
 end
 
 def reduce_to_any_true(array)
-  
+  array.length.times{ |index|
+    if nil
+    else
+      return array[index]
+    end
+  }
 end
