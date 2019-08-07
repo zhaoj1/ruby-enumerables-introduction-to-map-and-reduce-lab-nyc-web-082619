@@ -48,7 +48,7 @@ end
 def reduce_to_any_true(array)
   array.length.times{ |index|
     if array[index] == nil || false
-      return nil
+      return false
     elsif array[index]
     end
   }
